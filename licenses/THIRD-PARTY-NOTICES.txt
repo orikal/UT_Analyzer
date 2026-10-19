@@ -1,0 +1,21 @@
+UT Analyzer
+=============
+
+Copyright (c) 2026 UT Analyzer contributors.
+
+Third-Party Components
+----------------------
+
+This application uses the following third-party components:
+
+1. PySide6 (LGPL v3) — Qt for Python
+   See https://www.qt.io/licensing/
+
+2. tree-sitter and tree-sitter-language-pack
+   See respective upstream licenses.
+
+AI Processing
+-------------
+
+Test generation calls your company's internal LLM API (OpenAI-compatible).
+Configure the API base URL, key, and model in Settings.

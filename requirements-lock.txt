@@ -1,0 +1,14 @@
+# Pinned dependencies for reproducible release builds.
+# Install with: pip install -r requirements-lock.txt
+# Requires Python 3.11-3.13 (PySide6 6.8+ is required for Python 3.13).
+
+PySide6==6.11.1
+Pygments==2.19.1
+requests==2.32.3
+tree-sitter==0.26.0
+tree-sitter-language-pack==1.13.4
+colorlog==6.12.0
+
+# Build tools (install separately in release venv)
+# pyinstaller==6.11.1
+# pytest==8.3.4
